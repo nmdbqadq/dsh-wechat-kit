@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "WeChat group chat",
+    "description": "Connects a WeChat bot: answers people in direct messages and takes part in group chats, one DSH session per conversation.",
+    "detail": "docs/DETAIL.md"
+  }
+}
