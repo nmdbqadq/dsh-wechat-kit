@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "微信群聊助手",
+    "description": "接一个微信机器人进来：私聊里跟人实时回话，群里按规则接话，每个聊天一个独立的 DSH 会话。",
+    "detail": "docs/DETAIL.md"
+  }
+}
