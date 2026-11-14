@@ -1,0 +1,12 @@
+# Bundle layer for dsh-wechat-groupchat.
+#
+# One Host row: the bridge owns its own iLink bot account, the long-poll loop,
+# the conversation → session mapping and the QR login page. Everything tunable
+# lives in this row's `config` (see src/config.js for the full list and
+# `~/.dsh/wechat-groupchat/config.json` for runtime edits made in the page).
+- insert:
+    - id: dsh-wechat-groupchat
+      name: 'dsh-wechat-groupchat'
+      config:
+        groupChatEnabled: true
+        groupReplyWhen: mention
